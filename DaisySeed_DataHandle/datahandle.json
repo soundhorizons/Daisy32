@@ -1,0 +1,14 @@
+{
+    "name": "datahandle",
+    "som": "seed",
+    "components": {
+        "value": {
+            "component": "AnalogControl",
+            "pin": 15
+        },
+        "id": {
+            "component": "AnalogControl",
+            "pin": 16
+        }
+    }
+}
