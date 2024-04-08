@@ -22,6 +22,8 @@ Usage, recommendation:
 
 - After you have projected a controller or prepared some sensors to use, update the basic example sketches and Plugdataìs patch, upload the respective ESP32 sketches to the devices using the Arduino IDE.
 
+- Patch your Synthesizer with Plugdata, enable compile mode and flash your code into Daisy with Heavy Compiler Collection (hvcc)
+
 - Ensure proper connectivity between the ESP32 devices and the Daisy Seed module, it Uses DAC on GPIO 25 for the value, GPIO 26 for ID value, put 2 pull down resistors between the connection of Daisy and ESP32.
 
 - Be Sure to ground voltage Daisy and ESP32 receiver in the same place.
