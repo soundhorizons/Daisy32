@@ -1,6 +1,6 @@
 ESP32 OSC Communication with Daisy Seed Patched via PlugData
 
-BEERWARE LICENSE
+CC0 LICENSE
 
 
 This GitHub project provides a solution for establishing OSC (Open Sound Control) communication between two ESP32 microcontrollers. The primary objective of this project is to facilitate data exchange between ESP32 devices while interfacing with the Daisy Seed synthesizer module patched with PlugData.
