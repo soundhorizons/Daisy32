@@ -8,7 +8,7 @@ The primary objective of this project is to facilitate data exchange between ESP
 
 Key Features:
 
-- OSC Communication: The project offers an implementation of OSC communication protocol, enabling reliable data transmission between ESP32 microcontrollers.
+- OSC Communication: The project offers an implementation of OSC communication protocol, enabling data transmission between ESP32 microcontrollers.
 
 - One-way Communication: An ESP32 device send OSC message to the other, then the receciver translates data with its 2 builtin Dac, to send on Daisy Seed board
 
