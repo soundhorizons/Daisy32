@@ -78,10 +78,13 @@
 #X obj 976 661 == 2;
 #X obj 1019 664 == 3;
 #X text 399 374 ID mapped for DAC \, to be related with arduino ESP32 Sketch;
-#X text 672 410 to be recognized ID == N here;
-#X text 32 433 int RoundID = static_cast<int>(round(((255.0 / 6) * ID) + (255.0 / 12))) \;, f 77;
-#X text 667 433 int RoundID = static_cast<int>(round(((255.0 / 6) * ID) \;;
-#X text 31 414 to be recognized N+1>=RoundID>=N here;
+#X text 58 434 to be recognized N+1>=RoundID>=N here;
+#X text 401 399 int RoundID = static_cast<int>(round(((255.0 / 6) * ID) + (255.0 / 12))) \;, f 77;
+#X floatatom 1092 536 5 0 0 0 - - - 12;
+#X obj 1090 569 int;
+#X floatatom 1092 604 5 0 0 0 - - - 12;
+#X text 1092 514 try here;
+#X text 725 463 to be recognized ID == N here \, make sure the ID \, here or in the sketch \, will get above the desired int value \, values are truncated and not approximated;
 #X connect 0 0 5 1;
 #X connect 0 0 9 1;
 #X connect 1 0 4 1;
@@ -173,3 +176,5 @@
 #X connect 75 0 56 1;
 #X connect 76 0 57 1;
 #X connect 77 0 58 1;
+#X connect 81 0 82 0;
+#X connect 82 0 83 0;
