@@ -3,7 +3,8 @@ ESP32 OSC Communication with Daisy Seed Patched via PlugData
 CC0 LICENSE
 
 
-This GitHub project provides a solution for establishing OSC (Open Sound Control) communication over Wifi between two ESP32 microcontrollers. The primary objective of this project is to facilitate data exchange between ESP32 devices while interfacing with the Daisy Seed synthesizer module patched with PlugData.
+This GitHub project provides a solution for establishing OSC (Open Sound Control) communication over Wifi between two ESP32 microcontrollers. 
+The primary objective of this project is to facilitate data exchange between ESP32 devices while interfacing with the Daisy Seed synthesizer module patched with PlugData.
 
 Key Features:
 
@@ -11,9 +12,11 @@ Key Features:
 
 - One-way Communication: An ESP32 device send OSC message to the other, then the receciver translates data with its 2 builtin Dac, to send on Daisy Seed board
 
-- ESP32 Sketches: Included in the repository are two sketches for ESP32 microcontrollers. These sketches are for OSC data handling and are well-commented for easy understanding and modification.
+- ESP32 Sketches: Included in the repository are two sketches for ESP32 microcontrollers. 
+  These sketches are for OSC data handling and are well-commented for easy understanding and modification.
 
-- PlugData Integration: The OSC data received from one ESP32 can be transmitted to the Daisy Seed synthesizer module patched with PlugData. This integration expands the project's utility, allowing for real-time control and manipulation of audio parameters.
+- PlugData Integration: The OSC data received from one ESP32 can be transmitted to the Daisy Seed synthesizer module patched with PlugData. 
+  This integration expands the project's utility, allowing for real-time control and manipulation of audio parameters.
 
 - Open Source: The entire project is open-source, encouraging collaboration and contributions from the community. Developers can modify and extend the codebase to suit their specific requirements.
 
