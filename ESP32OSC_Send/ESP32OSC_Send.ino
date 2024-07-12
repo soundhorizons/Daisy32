@@ -42,7 +42,7 @@ void loop() {
   {
     if (oldvalue[i] != Data[i]) // I've used this to dont send many repetitive osc message data
     {
-      OSCMessage msg("/GY521"); // Create an OSC Message with a specified name
+      OSCMessage msg("/control"); // Create an OSC Message with a specified name
       msg.add(i); // Add an ID identifier value to the message
       msg.add(Data[i]); // Add a value into your specified ID control
   
