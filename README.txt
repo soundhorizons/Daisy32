@@ -36,6 +36,52 @@ Usage, recommendation:
 - Enjoy communication and control over the Daisy Seed synthesizer module via OSC messages.
 
 
+components are powered through 5 volts wall adapter or portable battery, i've soldered an USB type c connector, and a voltage converter from 5 to 3.3v, to power everything from a single connector
+
+Below the table of GPIO connections between ESP32 and Daisy, and relative OSC messages assigned GPIOs
+
+| ESP32 PIN   | DAISY PIN   | HVCCPARAM   | BUTTON     |
+|:------------|:------------|:------------|:-----------|
+| 13          | 26          | d1          | 1          |
+| 12          | 27          | d2          | 2          |
+| 27          | 8           | d3          | 3          |
+| 14          | 9           | d4          | 4          |
+| 33          | 10          | d5          | 5          |
+| 32          | 11          | d6          | 6          |
+| 0           | 5           | d7          | 7          |
+| 15          | 6           | d8          | 8          |
+| 4           | 7           | d9          | NOTE GATE  |
+
+| ANALOG      | DAISY PIN   | HVCCPARAM   | FADER     | XY   | RADIAL     | RADIO    | NOTE CV   |
+|:------------|:------------|:------------|:----------|:-----|:-----------|:---------|:----------|
+| I2CDAC 1    | 17          | a1          | 1         | x1   | distance1  | Radio 1  | NOTE CV   |
+| I2CDAC 2    | 18          | a2          | 2         | y1   | azimuth1   | Radio 2  |           |
+| DAC 26      | 15          | a3          | 3         | x2   | distance2  | Radio 3  |           |
+| DAC 25      | 16          | a4          | 4         | y2   | azimuth2   | Radio 4  |           |
+| PWM 1 P5    | 19          | a5          | 5         | x3   | distance3  |          |           |
+| PWM 2 P18   | 20          | a6          | 6         | y3   | azimuth3   |          |           |
+| PWM 3 P19   | 21          | a7          | 7         | x4   | distance4  |          |           |
+| PWM 4 P22   | 22          | a8          | 8         | y4   | azimuth4   |          |           |
+
+OSC control messages names to write into osc interface to be dispatched from esp32:
+
+| FADER     | BUTTON     | XY      | RADIAL     | RADIO     | NOTE CV to a1    |
+|:----------|:-----------|:--------|:-----------|:----------|:-----------------|
+| /fader1   | /button1   | /xy1    | /radial1   | /radio1   | /key1            |
+| /fader2   | /button2   |         |            | /radio2   | /key2            |
+| /fader3   | /button3   | /xy2    | /radial2   | /radio3   | /key3            |
+| /fader4   | /button4   |         |            | /radio4   | /key4            |
+| /fader5   | /button5   | /xy3    | /radial3   |           | /key5            |
+| /fader6   | /button6   |         |            |           | /key6            |
+| /fader7   | /button7   | /xy4    | /radial4   |           | /key7            |
+| /fader8   | /button8   |         |            |           | /key8            |
+|           |            |         |            |           | /key9            |
+|           |            |         |            |           | /key10           |
+|           |            |         |            |           | /key11           |
+|           |            |         |            |           | /key12           |
+
+
+
 Contributions to the project are highly encouraged. Whether it's bug fixes, feature enhancements, or documentation improvements.
 
 Elevate your audio projects with the power of OSC communication between ESP32 devices and the Daisy Seed module patched with PlugData!
