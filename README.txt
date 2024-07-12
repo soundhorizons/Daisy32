@@ -51,7 +51,7 @@ components list:
 
 Below the table of GPIO connections between ESP32 and Daisy, and relative OSC messages assigned GPIOs
 
-DIgital controls
+Digital controls:
 
 | ESP32 PIN   | DAISY PIN   | HVCCPARAM   | BUTTON     |
 |:------------|:------------|:------------|:-----------|
@@ -65,7 +65,7 @@ DIgital controls
 | 15          | 6           | d8          | 8          |
 | 4           | 7           | d9          | NOTE GATE  |
 
-Analog controls
+Analog controls:
 
 | ANALOG      | DAISY PIN   | HVCCPARAM   | FADER     | XY   | RADIAL     | RADIO    | NOTE CV   |
 |:------------|:------------|:------------|:----------|:-----|:-----------|:---------|:----------|
