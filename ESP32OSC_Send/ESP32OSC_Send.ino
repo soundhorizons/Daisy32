@@ -50,7 +50,7 @@ void loop() {
       msg.send(Udp); // Send Message through UDP
       Udp.endPacket(); // Complete package sending
 
-      oldvalue[i] = Data[i]; // Updata last received value
+      oldvalue[i] = Data[i]; // Update last received value
 
       delay(4); //use delay at your own discretion to appropriately send timed data
     }
