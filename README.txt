@@ -38,6 +38,17 @@ Usage, recommendation:
 
 components are powered through 5 volts wall adapter or portable battery, i've soldered an USB type c connector, and a voltage converter from 5 to 3.3v, to power everything from a single connector
 
+components list:
+- ESP32
+- Daisy seed
+- USB type c breakout connector
+- x2 I2C Dacs(with different addresses)
+- DC 5v to 3v3 step down module
+- x3 jack stereo connectors
+- for PWM 2 RC DACs, 4 condensers 22uF and 4 resistors 270 ohm
+- pinstrips
+- jumper cables
+
 Below the table of GPIO connections between ESP32 and Daisy, and relative OSC messages assigned GPIOs
 
 | ESP32 PIN   | DAISY PIN   | HVCCPARAM   | BUTTON     |
