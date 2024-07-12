@@ -1,14 +1,74 @@
 {
-    "name": "datahandle",
+    "name": "customseed",
     "som": "seed",
     "components": {
-        "value": {
+        "a3": {
             "component": "AnalogControl",
             "pin": 15
         },
-        "id": {
+        "a4": {
             "component": "AnalogControl",
             "pin": 16
+        },
+        "a1": {
+            "component": "AnalogControl",
+            "pin": 17
+        },
+        "a2": {
+            "component": "AnalogControl",
+            "pin": 18
+        },
+        "a5": {
+            "component": "AnalogControl",
+            "pin": 19
+        },
+        "a6": {
+            "component": "AnalogControl",
+            "pin": 20
+        },
+        "a7": {
+            "component": "AnalogControl",
+            "pin": 21
+        },
+        "a8": {
+            "component": "AnalogControl",
+            "pin": 22
+        },
+        "d1": {
+            "component": "GateIn",
+            "pin": 26
+        },
+        "d2": {
+            "component": "GateIn",
+            "pin": 27
+        },
+        "d7": {
+            "component": "GateIn",
+            "pin": 5
+        },
+        "d8": {
+            "component": "GateIn",
+            "pin": 6
+        },
+        "d9": {
+            "component": "GateIn",
+            "pin": 7
+        },
+        "d3": {
+            "component": "GateIn",
+            "pin": 8
+        },
+        "d4": {
+            "component": "GateIn",
+            "pin": 9
+        },
+        "d5": {
+            "component": "GateIn",
+            "pin": 10
+        },
+        "d6": {
+            "component": "GateIn",
+            "pin": 11
         }
     }
 }
