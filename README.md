@@ -1,6 +1,6 @@
 ESP32 OSC Communication with Daisy Seed Patched via PlugData
 
-CC0 LICENSE
+GPL3 V3 LICENSE
 
 
 This GitHub project provides a solution for establishing OSC (Open Sound Control) communication over Wifi between EPS32 microcontroller and Daisy Seed embedded platform for music. 
